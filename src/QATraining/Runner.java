@@ -1,14 +1,13 @@
-package QATraining;
+package qatraining;
 
 public class Runner {
-
+	
 	public static void main(String[] args) {
+	
 		
-		int result = 2;
 		
-		result *= 5;
-		
-		System.out.println(result);
+		System.out.println(Calculator.add(59, 75));
+			
 	}
 
 }
