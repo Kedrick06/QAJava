@@ -20,16 +20,13 @@ public class Array {
 
 		int[] myOtherIntArr = { 100, 25, 32, 46 };
 
-//		int someNum = myOtherIntArr[2];
 	
-			// for loop
+	
 			for (int i = 0; i  < myOtherIntArr.length; i++) {
-				int iTimesTwo = myOtherIntArr[i] * 2;
-//				System.out.println(myOtherIntArr[i]);
+				System.out.println(myOtherIntArr[i]);
 
 			}
 			
-			// for each loop
 			for (int num : myOtherIntArr) {
 				if (num % 2 == 0) {
 				System.out.println(num);
